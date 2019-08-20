@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PP 2019-II ArrayCirculation.jnlp">
+  <information>
+    <title>PP 2019-II ArrayCirculation</title>
+    <vendor>furuk</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\twitter4j-core-4.0.7.jar" size="318006" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PP 2019-II ArrayCirculation" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pp.pkg2019.ii.arraycirculation.PP2019IIArrayCirculation"  name="PP 2019-II ArrayCirculation" />
+  <update check="always"/>
+</jnlp>
